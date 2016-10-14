@@ -175,12 +175,12 @@ int get_prime()
 		puts("INPUT RANGE ERROR!\n");
 		return ERROR;
 	}
-	printf("Computing...\n");
-	double time_start, time_end;
-	time_start = GetTickCount();//计时 
+	//printf("Computing...\n");
+	//double time_start, time_end;
+	//time_start = GetTickCount();//计时 
 	BigPrime(nth);
-	time_end = GetTickCount();
-	printf("Time costs: %.2f seconds\n\n", (time_end - time_start) / 1000);
+	//time_end = GetTickCount();
+	//printf("Time costs: %.2f seconds\n\n", (time_end - time_start) / 1000);
 	return OK;
 }
 int main()

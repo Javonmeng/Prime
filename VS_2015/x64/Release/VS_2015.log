@@ -1,6 +1,8 @@
 ﻿  prime_sieve.cpp
   正在生成代码
-  All 9 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  0 of 9 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
   已完成代码的生成
   VS_2015.vcxproj -> C:\My_Files\大三上\软件工程\Prime\VS_2015\x64\Release\VS_2015.exe
   VS_2015.vcxproj -> C:\My_Files\大三上\软件工程\Prime\VS_2015\x64\Release\VS_2015.pdb (Full PDB)
