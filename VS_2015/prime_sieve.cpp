@@ -40,8 +40,8 @@ int BigPrime(int N)
 	TheFirstPartPrime();
 	if (N <= 4700)
 	{//考虑N小于等于4700
-		printf("The %dth prime is ", N);
-		printf("%d.\n", prime[N]);
+		//printf("The %dth prime is ", N);
+		printf("%d\n", prime[N]);
 		return OK;
 	}
 	while (1)
@@ -139,8 +139,8 @@ int BigPrime(int N)
 				tmp = i + pm;
 				if (num == N)
 				{
-					printf("The %dth prime is ", num);
-					printf("%d.\n", tmp);
+					//printf("The %dth prime is ", num);
+					printf("%d\n", tmp);
 					return OK;
 				}
 			}
@@ -153,7 +153,7 @@ int BigPrime(int N)
 
 int get_prime()
 {
-	printf("Please input number(1 - 100660000):");
+	//printf("Please input number(1 - 100660000):");
 	char str[100];
 	gets_s(str);
 	int i = 0;
@@ -163,7 +163,7 @@ int get_prime()
 			i++;
 		else
 		{
-			puts("INPUT ERROR!\n");
+			puts("INPUT ERROR!");
 			return ERROR;
 		}
 	}
@@ -172,7 +172,7 @@ int get_prime()
 		nth = atoi(str);
 	if (nth <= 0 || nth > 100660000)
 	{//数字是否超范围检测 
-		puts("INPUT RANGE ERROR!\n");
+		puts("INPUT RANGE ERROR!");
 		return ERROR;
 	}
 	//printf("Computing...\n");
@@ -185,8 +185,6 @@ int get_prime()
 }
 int main()
 {//可供计算1st-100660000th prime! 
-	while (true)
-	{
 		get_prime();
-	}
+		return OK;
 }
